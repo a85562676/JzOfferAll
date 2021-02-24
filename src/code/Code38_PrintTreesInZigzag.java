@@ -1,5 +1,4 @@
 package code;
-
 import java.util.Stack;
 import java.util.ArrayList;
 
@@ -52,6 +51,7 @@ public class Code38_PrintTreesInZigzag {
         }
         return res;
     }
+
 
     public static void main(String[] args){
         TreeNode n1 = new TreeNode(1);

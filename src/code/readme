@@ -1,9 +1,31 @@
-剑指offer链表题：
+栈和队列题：
+剑指offer：
+   1、
+
+========================================================================================================================
+链表题：
+剑指offer：
    1、链表中倒数第K个节点          Code26_KthNodeFromEnd             书面试题22
    2、链表中环的入口节点           Code27_EntryNodeInListLoop        书面试题23
    3、反转链表                   Code28_ReverseList                书面试题24
    4、合并两个排序的链表           Code29_MergeSortedLists           书面试题25
-   5、5.1删除链表的节点 O(1)      Code21_DeleteNode                  书面试题18
+   5、5.1删除链表的节点 O(1)      Code21_DeleteNode                 书面试题18
       5.2删除链表的节点           Code22_DeleteNode                 书面试题18
    6、从尾到头打印链表             Code5_printListFromTailToHead     书面试题6
    7、两个链表的第一个公共节点      Code88_FindFirstCommonNode         书面试题52
+
+剑指offer树结构题：
+   1、二叉树的镜像                Code31_MirrorOfBinaryTree          书面试题27
+   2、对称的二叉树                Code32_SymmetricalBinaryTree       书面试题28
+   3、3.1从上到下打印二叉树        Code36_PrintFromTopToBottom        书面试题32
+      3.2分行从上到下打印二叉树    Code37_PrintTreesInLines           书面试题32
+      3.3之字形打印二叉树         Code38_PrintTreesInZigzag          书面试题32
+   4、二叉搜索树的第K大节点        Code75_KthNodeInBST                 书面试题54
+   5、二叉树的深度                Code76_TreeDepth                   书面试题55
+   6、二叉搜索树的后序遍历序列      Code39_SequenceOfBst               书面试题33
+   7、二叉树中和为某一值的路径      Code40_PathInTree                  书面试题34
+
+========================================================================================================================
+数组和矩阵问题：
+剑指offer：
+   1、顺时针打印矩阵               code33_PrintMatrix                书面试题29

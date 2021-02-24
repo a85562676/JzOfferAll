@@ -9,7 +9,7 @@ public class Code39_SequenceOfBst {
         return verify(sequence,0,sequence.length - 1);
     }
 
-    private static boolean verify(int[] sequence, int start, int end) {
+    public static boolean verify(int[] sequence, int start, int end) {
         if (start >= end) {
             return true;
         }
@@ -26,6 +26,12 @@ public class Code39_SequenceOfBst {
                 return false;
             }
         }
-        return verify(sequence, start, i - 1) && verify(sequence, i, end - 1);
+        return verify(sequence, start, i - 1) && verify(sequence, i + 1, end - 1);
+    }
+
+
+
+    public static void main(String[] args) {
+        System.out.println(VerifySquenceOfBST(new int[]{5,7,6,9,11,10,8}));
     }
 }

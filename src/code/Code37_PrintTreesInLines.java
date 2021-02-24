@@ -1,5 +1,7 @@
 package code;
 
+import 面试遇到.Code4_Solution;
+
 import java.util.*;
 public class Code37_PrintTreesInLines {
 
@@ -41,6 +43,29 @@ public class Code37_PrintTreesInLines {
         }
     }
 
+    public static void rightSideView(TreeNode root) {
+        if(root == null) return ;
+        Queue<TreeNode> queue = new LinkedList<>();
+        ArrayList<Integer> list = new ArrayList<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode node = queue.poll();
+                System.out.print(node.val + " ");
+                if(i == (size - 1)){
+                    System.out.print("\n");
+                }
+                if (node.left != null) {
+                    queue.offer(node.left);
+                }
+                if (node.right != null) {
+                    queue.offer(node.right);
+                }
+            }
+        }
+    }
+
     public static void main(String[] args){
         TreeNode n1 = new TreeNode(1);
         TreeNode n2 = new TreeNode(2);
@@ -58,6 +83,10 @@ public class Code37_PrintTreesInLines {
         n3.right = n7;
 
         PrintTreesInLines(n1);
+
+        System.out.println("========================================");
+
+        rightSideView(n1);
 
     }
 }
