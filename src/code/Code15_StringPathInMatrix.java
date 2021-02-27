@@ -1,5 +1,6 @@
 package code;
 
+// 矩阵中的路径
 public class Code15_StringPathInMatrix {
 
     public static boolean hasPath(char[] matrix, int rows, int cols, char[] str) {
@@ -26,7 +27,7 @@ public class Code15_StringPathInMatrix {
         if (i >= 0 && i < rows && j >= 0 && j < cols && matrix[i * cols + j] == str[pathLength] && !visited[i * cols + j]) {
             ++pathLength;
             visited[i * cols + j] = true;
-            hasPath = hasPath(matrix, rows, cols, str, i - 1, j, pathLength, visited)
+            hasPath =  hasPath(matrix, rows, cols, str, i - 1, j, pathLength, visited)
                     || hasPath(matrix, rows, cols, str, i + 1, j, pathLength, visited)
                     || hasPath(matrix, rows, cols, str, i, j - 1, pathLength, visited)
                     || hasPath(matrix, rows, cols, str, i, j + 1, pathLength, visited);
@@ -39,9 +40,8 @@ public class Code15_StringPathInMatrix {
     }
 
     public static void main(String[] args){
-
-
-
-
+        char[] matrix = new char[]{'a','b','t','g','c','f','c','s','j','d','e','h'};
+        boolean res = hasPath(matrix,3, 4, new char[]{'b','f','c','e'});
+        System.out.println(res);
     }
 }

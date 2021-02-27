@@ -13,6 +13,7 @@
       5.2删除链表的节点           Code22_DeleteNode                 书面试题18
    6、从尾到头打印链表             Code5_printListFromTailToHead     书面试题6
    7、两个链表的第一个公共节点      Code88_FindFirstCommonNode         书面试题52
+   8、复杂链表的复制              Code41_CopyComplexList             书面试题35
 
 剑指offer树结构题：
    1、二叉树的镜像                Code31_MirrorOfBinaryTree          书面试题27
@@ -20,12 +21,37 @@
    3、3.1从上到下打印二叉树        Code36_PrintFromTopToBottom        书面试题32
       3.2分行从上到下打印二叉树    Code37_PrintTreesInLines           书面试题32
       3.3之字形打印二叉树         Code38_PrintTreesInZigzag          书面试题32
-   4、二叉搜索树的第K大节点        Code75_KthNodeInBST                 书面试题54
-   5、二叉树的深度                Code76_TreeDepth                   书面试题55
+   4、二叉搜索树的第K大节点        Code75_KthNodeInBST                书面试题54
+   5、5.1、二叉树的深度           Code76_TreeDepth                   书面试题55
+      5.2、平衡二叉树            Code57_BalancedBinaryTree          书面试题55
    6、二叉搜索树的后序遍历序列      Code39_SequenceOfBst               书面试题33
    7、二叉树中和为某一值的路径      Code40_PathInTree                  书面试题34
+   8、重建二叉树                 Code6_ConstructBinaryTree           书面试题7
+   9、二叉树的下一个节点           Code7_NextNodeInBinaryTrees        书面试题8
 
 ========================================================================================================================
 数组和矩阵问题：
 剑指offer：
-   1、顺时针打印矩阵               code33_PrintMatrix                书面试题29
+   1、顺时针打印矩阵               Code33_PrintMatrix                书面试题29
+   2、旋转数组的最小数字           Code8_RotateArrayGetMin           书面试题11
+   3、矩阵中的路径                Code15_StringPathInMatrix         书面试题12
+   4、机器人的运动范围             Code16_RobotMovingCount           书面试题13
+
+========================================================================================================================
+字符串问题：
+剑指offer：
+   1、1.1翻转单词顺序              Code83_ReverseSentence            书面试题58
+
+
+========================================================================================================================
+递归和动态规划问题：
+剑指offer:
+   1、礼物最大价值                 Code90_GetMaxGiftValue            书面试题47
+   2、斐波那契数列                 Code10_Fibonacci                  书面试题10
+
+
+========================================================================================================================
+位运算问题：
+剑指offer:
+   1、礼物最大价值                 Code90_GetMaxGiftValue            书面试题47
+   2、斐波那契数列                 Code10_Fibonacci                  书面试题10
