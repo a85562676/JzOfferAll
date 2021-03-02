@@ -1,8 +1,8 @@
 package code;
 
-public class Code69_MaxDiff {
+public class Code69_MaxStockProfits {
 
-    public static int MaxDiff(int[] numbers){
+    public static int MaxStockProfits(int[] numbers){
         if(numbers == null && numbers.length < 2){
             return 0;
         }
@@ -23,6 +23,6 @@ public class Code69_MaxDiff {
 
     public static void main(String[] args) {
         int[] numbers = new int[]{9, 11, 8, 5, 7, 12, 16, 14};
-        System.out.println(MaxDiff(numbers));
+        System.out.println(MaxStockProfits(numbers));
     }
 }

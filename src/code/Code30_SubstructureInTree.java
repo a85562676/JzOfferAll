@@ -18,8 +18,7 @@ public class Code30_SubstructureInTree {
             return false;
         }
 
-        return isSame(root1, root2) ||
-                HasSubtree(root1.left, root2) || HasSubtree(root1.right, root2);
+        return isSame(root1, root2) || HasSubtree(root1.left, root2) || HasSubtree(root1.right, root2);
     }
 
     private static boolean isSame(TreeNode root1, TreeNode root2) {

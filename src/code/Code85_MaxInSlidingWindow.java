@@ -26,7 +26,7 @@ public class Code85_MaxInSlidingWindow {
     }
 
     public static void main(String[] args) {
-        int[] num = new int[]{2,3,4,2,6,2,5,1};
+        int[] num = new int[]{4,3,2,1,6,2,5,1};
         ArrayList<Integer> res = MaxInSlidingWindow(num, 3);
         System.out.println(res);
     }

@@ -1,9 +1,10 @@
 栈和队列题：
 剑指offer：
    1、用栈实现两个队列             Code9_TwuStackQueue               书面试题9
-   2、包含min函数的栈              Code34_MinInStack                书面试题30
+   2、包含min函数的栈             Code34_MinInStack                 书面试题30
    3、栈的压入弹出序列             Code35_IsPopOrder                 书面试题31
-
+   4、4.1滑动窗口的最大值          Code85_MaxInSlidingWindow         书面试题59
+      4.2队列的最大值             Code86_QueueWithMax               书面试题59
 ========================================================================================================================
 链表题：
 剑指offer：
@@ -21,15 +22,16 @@
    1、二叉树的镜像                Code31_MirrorOfBinaryTree          书面试题27
    2、对称的二叉树                Code32_SymmetricalBinaryTree       书面试题28
    3、3.1从上到下打印二叉树        Code36_PrintFromTopToBottom        书面试题32
-      3.2分行从上到下打印二叉树    Code37_PrintTreesInLines           书面试题32
+      3.2分行从上到下打印二叉树     Code37_PrintTreesInLines           书面试题32
       3.3之字形打印二叉树         Code38_PrintTreesInZigzag          书面试题32
    4、二叉搜索树的第K大节点        Code75_KthNodeInBST                书面试题54
    5、5.1、二叉树的深度           Code76_TreeDepth                   书面试题55
-      5.2、平衡二叉树            Code57_BalancedBinaryTree          书面试题55
+      5.2、平衡二叉树             Code57_BalancedBinaryTree          书面试题55
    6、二叉搜索树的后序遍历序列      Code39_SequenceOfBst               书面试题33
    7、二叉树中和为某一值的路径      Code40_PathInTree                  书面试题34
    8、重建二叉树                 Code6_ConstructBinaryTree           书面试题7
    9、二叉树的下一个节点           Code7_NextNodeInBinaryTrees        书面试题8
+   10、树的子结构                Code30_SubstructureInTree           书面试题26
 
 ========================================================================================================================
 数组和矩阵问题：
@@ -41,18 +43,24 @@
    5、调整数组顺序使奇数放在偶数前面    Code25_ReorderOddEven             书面试题21
    6、数组中的逆序对                 Code91_FindInversePairs           书面试题51
    7、7.1 在排序数组中查找数字        Code72_GetNumberOfK               书面试题53
-     7.2 0~n-1中缺失的数字          Code73_GetMissingNumber           书面试题53
+     7.2 0~n-1中缺失的数字          Code73_GetMissingNumber            书面试题53
      7.3 数组中数值和下标相等的元素    Code74_GetNumberSameAsIndex       书面试题53
    8、8.1 数组中只出现一次的两个数字   Code79_NumbersAppearOnce           书面试题56
      8.2 数组中唯一只出现一次的数字    Code80_NumbersAppearOnce2         书面试题56
    9、9.1 和为s的数字               Code81_FindNumbersWithSum          书面试题57
-      9.2 和为s的连续正数序列        Code82_FindContinuousSequence      书面试题57
+      9.2 和为s的连续正数序列         Code82_FindContinuousSequence      书面试题57
+   10、股票的最大利润                 Code69_MaxStockProfits            书面试题63
 ========================================================================================================================
 字符串问题：
 剑指offer：
-   1、1.1翻转单词顺序              Code83_ReverseSentence            书面试题58
-   2、正则表达式匹配               Code23_RegexMatch                  书面试题19
-   3、表示数字的字符串              Code24_isNumeric                  书面试题20
+   1、1.1翻转单词顺序              Code83_ReverseSentence              书面试题58
+   2、正则表达式匹配                Code23_RegexMatch                   书面试题19
+   3、表示数字的字符串              Code24_isNumeric                    书面试题20
+
+面经高频：
+   1、最长公共子串的长度            Code201_MaxCommonSubstring
+   2、最长公共子序列的长度          Code202_MaxCommonSubsequence
+
 
 ========================================================================================================================
 递归和动态规划问题：
