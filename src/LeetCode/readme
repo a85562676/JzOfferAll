@@ -38,7 +38,7 @@ leetcode栈和队列问题：
    1、求栈的最小值MinStack             LeetCode141_hasCycle                            leetcode_141
 
 leetcode递归和动态规划问题：
-   1、爬楼梯                         LeetCode070_ClimbingStairs                       leetcode_070
+   1、爬楼梯                          LeetCode070_ClimbingStairs                       leetcode_070
    2、
 
 
@@ -48,4 +48,4 @@ leetcode其他题型：
    3、是否是happy值                    LeetCode202_isHappy                            leetcode_202
 
 leetcode位运算：
-   1、反转一个整数
+   1、反转一个整数                      LeetCode007_ReverseInteger                     leetcode_007
