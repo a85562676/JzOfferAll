@@ -34,6 +34,54 @@ public class Code29_MergeSortedLists {
         pre.next = cur1 == null ? cur2: cur1;
         return head;
     }
+    public static Node mergeTwoLists(Node l1, Node l2) {
+        Node head = new Node(0);
+        Node cur = head;
 
+        while(l1 != null && l2 !=null){
+            if(l1.value <= l2.value){
+                cur.next = l1;
+                l1 = l1.next;
+            } else{
+                cur.next = l2;
+                l2 = l2.next;
+            }
+            cur = cur.next;
+        }
+
+        if(l1 == null){
+            cur.next = l2;
+        }
+        if(l2 == null){
+            cur.next = l1;
+        }
+
+        return head.next;
+    }
+
+    public static void main(String[] args) {
+        Node n1 = new Node(1);
+        Node n2 = new Node(2);
+        Node n3 = new Node(4);
+
+        Node n4 = new Node(1);
+        Node n5 = new Node(2);
+        Node n6 = new Node(3);
+
+        n1.next = n2;
+        n2.next = n3;
+
+        n4.next = n5;
+        n5.next = n6;
+
+        Node head = mergeTwoLists(n1, n4);
+
+        System.out.println(head.value);
+        System.out.println(head.next.value);
+        System.out.println(head.next.next.value);
+        System.out.println(head.next.next.next.value);
+        System.out.println(head.next.next.next.next.value);
+        System.out.println(head.next.next.next.next.next.value);
+    }
 
 }

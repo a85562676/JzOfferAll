@@ -1,0 +1,51 @@
+leetcode树结构题：
+  1、是否是同一棵树                     LeetCode100_isSameTree                         leetcode_100
+  2、二叉树的最大高度                   LeetCode104_maxDepth                           leetcode_104
+  3、把一个有序数组重建成高度平衡二叉树     LeetCode108_sortedArrayToBST                   leetcode_108
+  4、是否是对称树                      LeetCode101_IsSymmetricTree                    leetcode_101
+
+
+leetcode字符串问题:
+   1、最长回文子串                     LeetCode005_LongestPalindromeSubString        leetcode_5
+   2、翻转字符串                      LeetCode344_ReverseString                      leetcode_344
+   3、FizzBuzz                      LeetCode412_fizzBuzz                           leetcode_412
+   4、是否是同形词                     LeetCode242_isAnagram                         leetcode_242
+   5、字符串转成数字                   LeetCode171_TitleToNumber                       leetcode_171
+   6、罗马数字                        leetCode013_RomanToInt                        leetcode_13
+   7、寻找第一个单独的字符               LeetCode387_firstUniqChar                     leetcode_387
+   8、是否是回文字符串                  LeetCode125_ValidPalindrome                   leetcode_125
+
+leetcode链表题：
+   1、删除链表一个节点                  LeetCode237_DeleteNode                         leetcode_237
+   2、反转链表                         LeetCode206_ReverseList                        leetcode_206
+   3、寻找两条链表的第一个交点            LeetCode160_getIntersectionNode                leetcode_160
+   4、判断链表是否有环                  LeetCode155_MinStack                           leetcode_155
+   5、判断链表是否是回文链表             LeetCode234_palindromeLinedList                leetcode_234
+
+leetcode数组和矩阵问题：
+   1、求数组中出现一次的数字             LeetCode136_singleNumber                        leetcode_136
+   2、把数组中的0移到数组的最后          LeetCode283_MoveZeors                           leetcode_283
+   3、数组中是否有重复值                LeetCode217_ContainsDuplicate                   leetcode_217
+   4、数组中的缺失值                   LeetCode268_missingNumber                       leetcode_268
+   5、返回两个数组的交集                LeetCode350_intersect                           leetcode_350
+   6、寻找最大的子数组和                LeetCode053_maxSubArray                         leetcode_053
+   7、从有序数组中去除掉重复值           LeetCode026_removeDuplicates                    leetcode_026
+   8、数组twoSum                     LeetCode001_TwoSum                              leetcode_001
+   9、数组的plusOne                   LeetCode066_PlusOne                             leetcode_066
+   10、合并两个有序数组                LeetCode088_MergeSortedArray                     leetcode_088
+
+leetcode栈和队列问题：
+   1、求栈的最小值MinStack             LeetCode141_hasCycle                            leetcode_141
+
+leetcode递归和动态规划问题：
+   1、爬楼梯                         LeetCode070_ClimbingStairs                       leetcode_070
+   2、
+
+
+leetcode其他题型：
+   1、杨辉三角                         LeetCode118_PascalTriangle                     leetcode_118
+   2、寻找一个数位运算下的1的个数          LeetCode191_getNumOf1                          leetcode_191
+   3、是否是happy值                    LeetCode202_isHappy                            leetcode_202
+
+leetcode位运算：
+   1、反转一个整数

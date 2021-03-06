@@ -1,5 +1,7 @@
 package code;
 
+import LeetCode.LeetCode160_getIntersectionNode;
+
 import java.util.Map;
 
 //寻找两条链表的第一个公共节点

@@ -2,7 +2,7 @@ package code;
 
 import java.util.Stack;
 
-public class Code9_TwuStackQueue {
+public class Code9_TwoStackQueue {
 
     public static class TwoStacksQueue {
         public Stack<Integer> stackPush;
