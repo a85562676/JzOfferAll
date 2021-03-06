@@ -6,14 +6,18 @@ leetcode树结构题：
 
 
 leetcode字符串问题:
-   1、最长回文子串                     LeetCode005_LongestPalindromeSubString        leetcode_5
-   2、翻转字符串                      LeetCode344_ReverseString                      leetcode_344
-   3、FizzBuzz                      LeetCode412_fizzBuzz                           leetcode_412
-   4、是否是同形词                     LeetCode242_isAnagram                         leetcode_242
-   5、字符串转成数字                   LeetCode171_TitleToNumber                       leetcode_171
-   6、罗马数字                        leetCode013_RomanToInt                        leetcode_13
-   7、寻找第一个单独的字符               LeetCode387_firstUniqChar                     leetcode_387
-   8、是否是回文字符串                  LeetCode125_ValidPalindrome                   leetcode_125
+   1、最长回文子串                       LeetCode005_LongestPalindromeSubString        leetcode_005
+   2、翻转字符串                         LeetCode344_ReverseString                     leetcode_344
+   3、FizzBuzz                         LeetCode412_fizzBuzz                          leetcode_412
+   4、是否是同形词                       LeetCode242_isAnagram                         leetcode_242
+   5、字符串转成数字                      LeetCode171_TitleToNumber                     leetcode_171
+   6、罗马数字                          leetCode013_RomanToInt                        leetcode_013
+   7、寻找第一个单独的字符                 LeetCode387_firstUniqChar                     leetcode_387
+   8、是否是回文字符串                    LeetCode125_ValidPalindrome                   leetcode_125
+   9、求最长公共前缀                      LeetCode014_LongestCommonPrefix               leetcode_014
+   10、判断A字符串在B字符串第1次出现位置     LeetCode028_ImplementStr                      leetcode_028
+   11、有效的括号                        LeetCode020_ValidParentheses                  leetcode_020
+
 
 leetcode链表题：
    1、删除链表一个节点                  LeetCode237_DeleteNode                         leetcode_237
@@ -42,10 +46,22 @@ leetcode递归和动态规划问题：
    2、
 
 
-leetcode其他题型：
-   1、杨辉三角                         LeetCode118_PascalTriangle                     leetcode_118
-   2、寻找一个数位运算下的1的个数          LeetCode191_getNumOf1                          leetcode_191
-   3、是否是happy值                    LeetCode202_isHappy                            leetcode_202
 
 leetcode位运算：
    1、反转一个整数                      LeetCode007_ReverseInteger                     leetcode_007
+   2、反转bits                         LeetCode190_ReverseBits                        leetcode_190
+
+
+
+leetcode其他题型：
+   1、杨辉三角                         LeetCode118_PascalTriangle                     leetcode_118
+   2、寻找一个数位运算下的1的个数         LeetCode191_getNumOf1                          leetcode_191
+   3、是否是happy值                    LeetCode202_isHappy                            leetcode_202
+   4、是否是3次幂                      LeetCode326_PowerOfThree                       leetcode_326
+   5、n!的最后有几个0                   LeetCode172_FactorialTrailingZeroes            leetcode_172
+   6、求sqrt的值                      LeetCode069_sqrtFunction                        leetcode_069
+   7、求素数的个数                     LeetCode204_CountPrimes                         leetcode_204
+
+
+
+
