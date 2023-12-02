@@ -128,11 +128,11 @@ public class Code02_Hanoi {
 	}
 
 	public static void main(String[] args) {
-		int n = 3;
+		int n = 8;
 		hanoi1(n);
 		System.out.println("============");
 		hanoi2(n);
-//		System.out.println("============");
+		System.out.println("============");
 //		hanoi3(n);
 	}
 

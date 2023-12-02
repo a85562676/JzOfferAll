@@ -1,0 +1,18 @@
+package algorithmbasic2020.typical.lesson3;
+
+/**
+题目五
+
+请注意区分子串和子序列的不同，
+给定两个字符串str1和str2,求两个字符的最长公共子串
+
+动态规划的空间压缩技巧
+
+ */
+
+public class Code35_xxxx {
+
+
+
+
+}
