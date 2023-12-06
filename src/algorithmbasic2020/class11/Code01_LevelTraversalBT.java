@@ -23,7 +23,7 @@ public class Code01_LevelTraversalBT {
 		queue.add(head);
 		while (!queue.isEmpty()) {
 			Node cur = queue.poll();
-			System.out.println(cur.value);
+			System.out.print(cur.value + " ");
 			if (cur.left != null) {
 				queue.add(cur.left);
 			}
@@ -41,9 +41,6 @@ public class Code01_LevelTraversalBT {
 		head.left.right = new Node(5);
 		head.right.left = new Node(6);
 		head.right.right = new Node(7);
-
 		level(head);
-		System.out.println("========");
 	}
-
 }

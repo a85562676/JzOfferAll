@@ -38,7 +38,6 @@ public class Code05_ReverseStackUsingRecursive {
 		while (!test.isEmpty()) {
 			System.out.println(test.pop());
 		}
-
 	}
 
 }
